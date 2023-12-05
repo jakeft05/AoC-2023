@@ -15,7 +15,7 @@ for line in data:
   startPos = 0
   endPos = 0
   position = -1
-  
+
   for character in line:
     position += 1
     if character.isnumeric():
@@ -47,6 +47,5 @@ for line in data:
         part = False
         startPos = 0
         endPos = 0
-    
+
 print("Total: " + str(count))
-            
