@@ -2,8 +2,6 @@ with open("input.txt","r") as file:
   data = file.read()
 data = data.split("\n")
 
-check=[]
-
 count = 0
 
 for line in data:
